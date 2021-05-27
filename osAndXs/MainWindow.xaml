@@ -48,15 +48,15 @@
     <TextBox Grid.Row="3" Grid.Column="2" Foreground="Navy" Background="Yellow" FontSize="20" FontStyle="Italic" FontWeight="Bold" HorizontalContentAlignment="Center" x:Name="field24"></TextBox>
     <TextBox Grid.Row="3" Grid.Column="3" Foreground="Navy" Background="Yellow" FontSize="20" FontStyle="Italic" FontWeight="Bold" HorizontalContentAlignment="Center" x:Name="field25"></TextBox>
 
-    <Button x:Name="P1" Grid.Row="1" Grid.Column="1" Foreground="Navy" FontSize="50" FontStyle="Italic" FontWeight="Bold" HorizontalContentAlignment="Center" Click="Button_Click"></Button>
-    <Button x:Name="P2" Grid.Row="1" Grid.Column="2" Foreground="Navy" FontSize="50" FontStyle="Italic" FontWeight="Bold" HorizontalContentAlignment="Center" Click="Button_Click_1"></Button>
-    <Button x:Name="P3" Grid.Row="1" Grid.Column="3" Foreground="Navy" FontSize="50" FontStyle="Italic" FontWeight="Bold" HorizontalContentAlignment="Center" Click="Button_Click_2"></Button>
-    <Button x:Name="P4" Grid.Row="2" Grid.Column="1" Foreground="Navy" FontSize="50" FontStyle="Italic" FontWeight="Bold" HorizontalContentAlignment="Center" Click="Button_Click_3"></Button>
-    <Button x:Name="P5" Grid.Row="2" Grid.Column="2" Foreground="Navy" FontSize="50" FontStyle="Italic" FontWeight="Bold" HorizontalContentAlignment="Center" Click="Button_Click_4"></Button>
-    <Button x:Name="P6" Grid.Row="2" Grid.Column="3" Foreground="Navy" FontSize="50" FontStyle="Italic" FontWeight="Bold" HorizontalContentAlignment="Center" Click="Button_Click_5"></Button>
-    <Button x:Name="P7" Grid.Row="3" Grid.Column="1" Foreground="Navy" FontSize="50" FontStyle="Italic" FontWeight="Bold" HorizontalContentAlignment="Center" Click="Button_Click_6"></Button>
-    <Button x:Name="P8" Grid.Row="3" Grid.Column="2" Foreground="Navy" FontSize="50" FontStyle="Italic" FontWeight="Bold" HorizontalContentAlignment="Center" Click="Button_Click_7"></Button>
-    <Button x:Name="P9" Grid.Row="3" Grid.Column="3" Foreground="Navy" FontSize="50" FontStyle="Italic" FontWeight="Bold" HorizontalContentAlignment="Center" Click="Button_Click_8"></Button>
+    <Button x:Name="P1" Grid.Row="1" Grid.Column="1" Foreground="Navy" Background="LightBlue" FontSize="50" FontStyle="Italic" FontWeight="Bold" HorizontalContentAlignment="Center" Click="Button_Click"></Button>
+    <Button x:Name="P2" Grid.Row="1" Grid.Column="2" Foreground="Navy" Background="LightBlue" FontSize="50" FontStyle="Italic" FontWeight="Bold" HorizontalContentAlignment="Center" Click="Button_Click_1"></Button>
+    <Button x:Name="P3" Grid.Row="1" Grid.Column="3" Foreground="Navy" Background="LightBlue" FontSize="50" FontStyle="Italic" FontWeight="Bold" HorizontalContentAlignment="Center" Click="Button_Click_2"></Button>
+    <Button x:Name="P4" Grid.Row="2" Grid.Column="1" Foreground="Navy" Background="LightBlue" FontSize="50" FontStyle="Italic" FontWeight="Bold" HorizontalContentAlignment="Center" Click="Button_Click_3"></Button>
+    <Button x:Name="P5" Grid.Row="2" Grid.Column="2" Foreground="Navy" Background="LightBlue" FontSize="50" FontStyle="Italic" FontWeight="Bold" HorizontalContentAlignment="Center" Click="Button_Click_4"></Button>
+    <Button x:Name="P6" Grid.Row="2" Grid.Column="3" Foreground="Navy" Background="LightBlue" FontSize="50" FontStyle="Italic" FontWeight="Bold" HorizontalContentAlignment="Center" Click="Button_Click_5"></Button>
+    <Button x:Name="P7" Grid.Row="3" Grid.Column="1" Foreground="Navy" Background="LightBlue" FontSize="50" FontStyle="Italic" FontWeight="Bold" HorizontalContentAlignment="Center" Click="Button_Click_6"></Button>
+    <Button x:Name="P8" Grid.Row="3" Grid.Column="2" Foreground="Navy" Background="LightBlue" FontSize="50" FontStyle="Italic" FontWeight="Bold" HorizontalContentAlignment="Center" Click="Button_Click_7"></Button>
+    <Button x:Name="P9" Grid.Row="3" Grid.Column="3" Foreground="Navy" Background="LightBlue" FontSize="50" FontStyle="Italic" FontWeight="Bold" HorizontalContentAlignment="Center" Click="Button_Click_8"></Button>
     <Button Grid.Row="4" Grid.Column="1" Foreground="Navy" Background="Red" FontSize="20" FontStyle="Italic" FontWeight="Bold" HorizontalContentAlignment="Center" Click="Button_Click_9">Restart</Button>
     <Button Grid.Row="4" Grid.Column="2" Foreground="Navy" Background="Yellow" FontSize="20" FontStyle="Italic" FontWeight="Bold" HorizontalContentAlignment="Center" Click="Button_Click_10">Start</Button>
     <Button Grid.Row="4" Grid.Column="3" Foreground="Navy" Background="LightGreen" FontSize="20" FontStyle="Italic" FontWeight="Bold" HorizontalContentAlignment="Center" Click="Button_Click_11">Save</Button>
