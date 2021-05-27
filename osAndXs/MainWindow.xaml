@@ -6,34 +6,61 @@
         xmlns:local="clr-namespace:osAndXs"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        <Grid.ColumnDefinitions>
+  <Grid Margin="0,0,0,-200">
+    <Grid.ColumnDefinitions>
+      <ColumnDefinition Width="70"></ColumnDefinition>
+      <ColumnDefinition Width="100"></ColumnDefinition>
+      <ColumnDefinition Width="100"></ColumnDefinition>
+      <ColumnDefinition Width="100"></ColumnDefinition>
+      <ColumnDefinition Width="70"></ColumnDefinition>
+    </Grid.ColumnDefinitions>
+    <Grid.RowDefinitions>
+      <RowDefinition Height="60"></RowDefinition>
+      <RowDefinition Height="100"></RowDefinition>
+      <RowDefinition Height="100"></RowDefinition>
+      <RowDefinition Height="100"></RowDefinition>
+      <RowDefinition Height="60"></RowDefinition>
+    </Grid.RowDefinitions>
 
-            <ColumnDefinition></ColumnDefinition>
-            <ColumnDefinition></ColumnDefinition>
-            <ColumnDefinition></ColumnDefinition>
-        </Grid.ColumnDefinitions>
+    <TextBox Grid.Row="0" Grid.Column="0" Foreground="Navy" Background="Aqua" FontSize="17" FontStyle="Italic" FontWeight="Bold" HorizontalContentAlignment="Center" x:Name="field1">O and X</TextBox>
+    <TextBox Grid.Row="1" Grid.Column="0" Foreground="Navy" Background="Aqua" FontSize="20" FontStyle="Italic" FontWeight="Bold" HorizontalContentAlignment="Center" x:Name="field2">1</TextBox>
+    <TextBox Grid.Row="2" Grid.Column="0" Foreground="Navy" Background="Aqua" FontSize="20" FontStyle="Italic" FontWeight="Bold" HorizontalContentAlignment="Center" x:Name="field3">2</TextBox>
+    <TextBox Grid.Row="3" Grid.Column="0" Foreground="Navy" Background="Aqua" FontSize="20" FontStyle="Italic" FontWeight="Bold" HorizontalContentAlignment="Center" x:Name="field4">3</TextBox>
+    <TextBox Grid.Row="4" Grid.Column="0" Foreground="Navy" Background="Aqua" FontSize="20" FontStyle="Italic" FontWeight="Bold" HorizontalContentAlignment="Center" x:Name="field5"></TextBox>
+    <TextBox Grid.Row="0" Grid.Column="1" Foreground="Navy" Background="Aqua" FontSize="20" FontStyle="Italic" FontWeight="Bold" HorizontalContentAlignment="Center" x:Name="field6">1</TextBox>
+    <TextBox Grid.Row="0" Grid.Column="2" Foreground="Navy" Background="Aqua" FontSize="20" FontStyle="Italic" FontWeight="Bold" HorizontalContentAlignment="Center" x:Name="field7">2</TextBox>
+    <TextBox Grid.Row="0" Grid.Column="3" Foreground="Navy" Background="Aqua" FontSize="20" FontStyle="Italic" FontWeight="Bold" HorizontalContentAlignment="Center" x:Name="field8">3</TextBox>
+    <TextBox Grid.Row="0" Grid.Column="4" Foreground="Navy" Background="Aqua" FontSize="20" FontStyle="Italic" FontWeight="Bold" HorizontalContentAlignment="Center" x:Name="field9">Player</TextBox>
+    <TextBox Grid.Row="1" Grid.Column="4" Foreground="Navy" Background="Aqua" FontSize="20" FontStyle="Italic" FontWeight="Bold" HorizontalContentAlignment="Center" x:Name="field10"></TextBox>
+    <TextBox Grid.Row="2" Grid.Column="4" Foreground="Navy" Background="Aqua" FontSize="20" FontStyle="Italic" FontWeight="Bold" HorizontalContentAlignment="Center" x:Name="field11"></TextBox>
+    <TextBox Grid.Row="3" Grid.Column="4" Foreground="Navy" Background="Aqua" FontSize="20" FontStyle="Italic" FontWeight="Bold" HorizontalContentAlignment="Center" x:Name="field12"></TextBox>
+    <TextBox Grid.Row="4" Grid.Column="4" Foreground="Navy" Background="Aqua" FontSize="20" FontStyle="Italic" FontWeight="Bold" HorizontalContentAlignment="Center" x:Name="field13"></TextBox>
+    <TextBox Grid.Row="4" Grid.Column="1" Foreground="Navy" Background="Aqua" FontSize="20" FontStyle="Italic" FontWeight="Bold" HorizontalContentAlignment="Center" x:Name="field14"></TextBox>
+    <TextBox Grid.Row="4" Grid.Column="2" Foreground="Navy" Background="Aqua" FontSize="20" FontStyle="Italic" FontWeight="Bold" HorizontalContentAlignment="Center" x:Name="field15"></TextBox>
+    <TextBox Grid.Row="4" Grid.Column="3" Foreground="Navy" Background="Aqua" FontSize="20" FontStyle="Italic" FontWeight="Bold" HorizontalContentAlignment="Center" x:Name="field16"></TextBox>
+    <TextBox Grid.Row="1" Grid.Column="1" Foreground="Navy" Background="Yellow" FontSize="20" FontStyle="Italic" FontWeight="Bold" HorizontalContentAlignment="Center" x:Name="field17"></TextBox>
+    <TextBox Grid.Row="1" Grid.Column="2" Foreground="Navy" Background="Yellow" FontSize="20" FontStyle="Italic" FontWeight="Bold" HorizontalContentAlignment="Center" x:Name="field18"></TextBox>
+    <TextBox Grid.Row="1" Grid.Column="3" Foreground="Navy" Background="Yellow" FontSize="20" FontStyle="Italic" FontWeight="Bold" HorizontalContentAlignment="Center" x:Name="field19"></TextBox>
+    <TextBox Grid.Row="2" Grid.Column="1" Foreground="Navy" Background="Yellow" FontSize="20" FontStyle="Italic" FontWeight="Bold" HorizontalContentAlignment="Center" x:Name="field20"></TextBox>
+    <TextBox Grid.Row="2" Grid.Column="2" Foreground="Navy" Background="Yellow" FontSize="20" FontStyle="Italic" FontWeight="Bold" HorizontalContentAlignment="Center" x:Name="field21"></TextBox>
+    <TextBox Grid.Row="2" Grid.Column="3" Foreground="Navy" Background="Yellow" FontSize="20" FontStyle="Italic" FontWeight="Bold" HorizontalContentAlignment="Center" x:Name="field22"></TextBox>
+    <TextBox Grid.Row="3" Grid.Column="1" Foreground="Navy" Background="Yellow" FontSize="20" FontStyle="Italic" FontWeight="Bold" HorizontalContentAlignment="Center" x:Name="field23"></TextBox>
+    <TextBox Grid.Row="3" Grid.Column="2" Foreground="Navy" Background="Yellow" FontSize="20" FontStyle="Italic" FontWeight="Bold" HorizontalContentAlignment="Center" x:Name="field24"></TextBox>
+    <TextBox Grid.Row="3" Grid.Column="3" Foreground="Navy" Background="Yellow" FontSize="20" FontStyle="Italic" FontWeight="Bold" HorizontalContentAlignment="Center" x:Name="field25"></TextBox>
 
-        <Grid.RowDefinitions>
-            <RowDefinition></RowDefinition>
-            <RowDefinition></RowDefinition>
-            <RowDefinition></RowDefinition>
-            <RowDefinition></RowDefinition>
-        </Grid.RowDefinitions>
-
-        <Button x:Name ="P1" Grid.Row="0" Grid.Column="0"  Click="Button_Click"></Button>
-        <Button x:Name="P2" Grid.Row="0" Grid.Column="1"  Click="Button_Click_1"></Button>
-        <Button x:Name="P3"  Grid.Row="0" Grid.Column="2" Click="Button_Click_2"></Button>
-        <Button x:Name="P4" Grid.Row="1" Grid.Column="0" Click="Button_Click_3"></Button>
-        <Button x:Name="P5" Grid.Row="1" Grid.Column="1" Click="Button_Click_4"></Button>
-        <Button x:Name="P6" Grid.Row="1" Grid.Column="2" Click="Button_Click_5"></Button>
-        <Button x:Name="P7" Grid.Row="2" Grid.Column="0" Click="Button_Click_6"></Button>
-        <Button x:Name="P8" Grid.Row="2" Grid.Column="1" Click="Button_Click_7"></Button>
-        <Button x:Name="P9" Grid.Row="2" Grid.Column="2" Click="Button_Click_8"></Button>
-        <Button Grid.Row="3" Grid.Column="0" Click="Button_Click_9">Restart</Button>
-        <Button Grid.Row="3" Grid.Column="1" Click="Button_Click_10">Start</Button>
-        <Button Grid.Row="3" Grid.Column="2" Click="Button_Click_11">Save</Button>
+    <Button x:Name="P1" Grid.Row="1" Grid.Column="1" Foreground="Navy" FontSize="50" FontStyle="Italic" FontWeight="Bold" HorizontalContentAlignment="Center" Click="Button_Click"></Button>
+    <Button x:Name="P2" Grid.Row="1" Grid.Column="2" Foreground="Navy" FontSize="50" FontStyle="Italic" FontWeight="Bold" HorizontalContentAlignment="Center" Click="Button_Click_1"></Button>
+    <Button x:Name="P3" Grid.Row="1" Grid.Column="3" Foreground="Navy" FontSize="50" FontStyle="Italic" FontWeight="Bold" HorizontalContentAlignment="Center" Click="Button_Click_2"></Button>
+    <Button x:Name="P4" Grid.Row="2" Grid.Column="1" Foreground="Navy" FontSize="50" FontStyle="Italic" FontWeight="Bold" HorizontalContentAlignment="Center" Click="Button_Click_3"></Button>
+    <Button x:Name="P5" Grid.Row="2" Grid.Column="2" Foreground="Navy" FontSize="50" FontStyle="Italic" FontWeight="Bold" HorizontalContentAlignment="Center" Click="Button_Click_4"></Button>
+    <Button x:Name="P6" Grid.Row="2" Grid.Column="3" Foreground="Navy" FontSize="50" FontStyle="Italic" FontWeight="Bold" HorizontalContentAlignment="Center" Click="Button_Click_5"></Button>
+    <Button x:Name="P7" Grid.Row="3" Grid.Column="1" Foreground="Navy" FontSize="50" FontStyle="Italic" FontWeight="Bold" HorizontalContentAlignment="Center" Click="Button_Click_6"></Button>
+    <Button x:Name="P8" Grid.Row="3" Grid.Column="2" Foreground="Navy" FontSize="50" FontStyle="Italic" FontWeight="Bold" HorizontalContentAlignment="Center" Click="Button_Click_7"></Button>
+    <Button x:Name="P9" Grid.Row="3" Grid.Column="3" Foreground="Navy" FontSize="50" FontStyle="Italic" FontWeight="Bold" HorizontalContentAlignment="Center" Click="Button_Click_8"></Button>
+    <Button Grid.Row="4" Grid.Column="1" Foreground="Navy" Background="Red" FontSize="20" FontStyle="Italic" FontWeight="Bold" HorizontalContentAlignment="Center" Click="Button_Click_9">Restart</Button>
+    <Button Grid.Row="4" Grid.Column="2" Foreground="Navy" Background="Yellow" FontSize="20" FontStyle="Italic" FontWeight="Bold" HorizontalContentAlignment="Center" Click="Button_Click_10">Start</Button>
+    <Button Grid.Row="4" Grid.Column="3" Foreground="Navy" Background="LightGreen" FontSize="20" FontStyle="Italic" FontWeight="Bold" HorizontalContentAlignment="Center" Click="Button_Click_11">Save</Button>
 
 
-    </Grid>
+  </Grid>
 </Window>
